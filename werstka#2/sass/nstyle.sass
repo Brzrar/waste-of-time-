@@ -1,0 +1,282 @@
+.menu
+    height: 60px
+    background-color: #7272e1
+
+//---
+.home
+    display: flex
+    align-items: center
+    height: calc(100vh - 60px)
+    background-color: #F6BED9
+    background-image: url('../images/home/image-home.jpg')
+    background-position: right center
+    background-repeat: no-repeat
+    background-size: contain
+    &__inner
+        width: 470px
+        form
+            margin-top: 25px
+            width: 453px
+            display: flex
+            input
+                flex: 0 0 287px
+                height: 45px
+                border: 1px solid #6F2CFF
+                border-radius: 27.5px 0 0 27.5px
+                padding-left: 25px
+                padding-right: 25px
+                outline: none
+            button
+                flex: 0 1 186px
+                background: #6F2CFF
+                border-radius: 0 27.5px 27.5px 0
+                color: #ffffff
+                border: none
+                cursor: pointer
+                transition: 200ms
+                &:hover
+                    background: rgba(111, 44, 255, 0.77)
+        & > span
+            font-size: 15px
+            line-height: 21px
+        h1
+            margin-top: 20px
+            margin-bottom: 34px
+            font-size: 54px
+            line-height: 61px
+            strong
+                color: #6F2DFF
+        p
+            width: 438px
+            font-size: 18px
+            line-height: 30px
+            strong
+                font-weight: 900
+
+//----
+
+.brands
+    padding-top: 30px
+    text-align: center
+
+
+    .brands__img
+        display: flex
+        justify-content: space-between
+        padding-top: 14px
+        padding-bottom: 14px
+        margin-bottom: 10px
+
+
+    h4
+        margin-bottom: 10px
+        font-size: 18px
+        line-height: 30px
+        color: #1c1c1c
+
+    a
+        font-weight: 700
+        font-size: 16px
+        line-height: 24px
+        color: #1c1c1c
+        text-decoration: none
+
+//------
+
+.easy
+    background: #F5F5F5
+
+    .easy__img
+        display: flex
+        justify-content: center
+
+    .easy__item
+        display: flex
+        justify-content: center
+
+    .easy__inner button
+        width: 190px
+        height: 40px
+        left: 0
+        right: 0
+        top: 0
+        margin-top: 66px
+        margin-bottom: 77px
+
+        color: #ffffff
+        background: #6F2CFF
+        border-radius: 30px
+
+    .easy__iner button
+        width: 187px
+        height: 40px
+        left: 0
+        right: 0
+        top: 0
+        margin-top: 66px
+        margin-bottom: 77px
+        margin-left: 22px
+
+        background: #FFFFFF
+        box-shadow: 0 0 0 #6F2CFF
+        border-radius: 30px
+
+
+//-----
+
+.qubit_blocks
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    gap: 40px
+
+
+    .qubit__block img
+        transition: 400ms
+
+    .qubit__block:hover img
+        transform: scale(1.2)
+
+    .qubit__block img
+        gap: 40px
+        width: 50px
+        height: 50px
+
+
+    .qubit__block
+        flex: 0 1 320px
+        text-align: center
+
+
+    .qubit__block h5
+        margin-top: 42px
+        margin-bottom: 16px
+        font-size: 19px
+        line-height: 23px
+
+    .qubit__block p
+        font-size: 15px
+        line-height: 22px
+
+//------
+
+.trusted
+    margin-top: 60px
+
+    .t_brands
+        background-color: rgba(23, 0, 46, 1)
+        width: 100%
+        height: 673px
+
+
+    .t_brands h2
+        padding: 60px 0
+        font-weight: 700
+        font-size: 40px
+        line-height: 45px
+        text-align: center
+        color: #FFFFFF
+
+
+    .brands_card
+        width: 19%
+        background-color: #FFFFFF
+        box-shadow: 0 2px 4px rgba(192, 192, 192, 0.5)
+        border-radius: 7px 7px 7px 7px
+        text-align: center
+
+
+    .brands_cardsBlock
+        display: flex
+        justify-content: space-around
+
+
+
+    .brands_card p
+        font-weight: 700
+        font-size: 18px
+        line-height: 22px
+        color: #6F2CFF
+
+
+    .company_logo
+        width: 90%
+        padding-bottom: 25px
+
+
+    .playBtn_image
+        border-radius: 7px 7px 0 0
+        width: 100%
+
+
+    .cards_info
+        margin: 0 auto
+        width: 54%
+        padding: 25px 0 60px 0
+
+
+    #mm_logo
+        width: 35%
+
+
+
+//-----
+
+.can
+    padding-top: 57px
+    padding-bottom: 75px
+
+    &-inner
+        display: flex
+        justify-content: center
+        gap: 30px
+        flex-wrap: wrap
+        margin-top: 60px
+        &-item
+            width: 460px
+            height: 200px
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            align-items: start
+            padding: 30px 30px 22px
+            background-color: #17002E
+            border-radius: 8px 10px 10px 8px
+            color: #FFFFFF
+            .head
+                display: flex
+                gap: 20px
+                align-items: center
+                div
+                    width: 50px
+                    height: 50px
+
+                h3
+                    font-weight: 700
+                    font-size: 18px
+                    line-height: 25px
+            p
+                font-weight: 400
+                font-size: 15px
+                line-height: 22px
+            a
+                text-decoration: none
+                color: #FFFFFF
+                font-weight: 400
+                font-size: 15px
+                line-height: 15px
+                margin-bottom: 10px
+                position: relative
+                &:after
+                    position: absolute
+                    content: ''
+                    height: 2px
+                    background-color: #FFFFFF
+                    left: 0
+                    top: 25px
+                    width: 106%
+
+
+
+
+
