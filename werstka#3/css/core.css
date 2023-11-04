@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font: 14px 'Raleway', 'Roboto', sans-serif;
+    font-weight: 400;
+
+    /* TODO не забудь удалить */
+    /*padding-bottom: 200px;*/
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #214E41;
+}
