@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.line_title {
+    text-align: center;
+}
+.line_title h2 {
+    margin-bottom: 12px;
+    font-size: 48px;
+    line-height: 62.5px;
+}
+.line_title p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.h_text {
+    text-align: center;
+}
+.h_text h3 {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.h_text p {
+    font-size: 14px;
+}
